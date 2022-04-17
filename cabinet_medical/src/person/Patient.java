@@ -9,15 +9,6 @@ public class Patient extends Person  {
         this.age = age;
     }
 
-//    public String generate_doctor(List<Doctor> doctors){
-//
-//        if (doctors.size() == 0){
-//            throw new RuntimeException("The are no doctors to treat the patient, try again later!");
-//        }
-//        Random random = new Random();
-//        int int_doctor = random.nextInt(doctors.size());
-//        return doctors.get(int_doctor).getLastName();
-//    }
 
     public Integer getAge() {
         return age;
